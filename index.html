@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delfino Eventos </title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container fullscreen">
+      <div class="profile-section">
+        <img src="img/perfil.png" alt="Foto de Perfil de Nilva Delfino" class="profile-pic" />
+        <img rel="icon" href="/img/logo.png" type="image/x-icon">
+        <h5>@DelfinoEventos</h5>
+      </div>
+      <div class="buttons">
+        <a href="#servicos" class="btn">Conheça os Meus Serviços</a>
+        <a href="#historia" class="btn">Conheça Minha História</a>
+        <a href="#gastronomia" class="btn">Gastronomia</a>
+        <a href="#galeria" class="btn">Galeria de Fotos</a>
+        <a href="https://wa.me/553484188892" class="btn whatsapp" id="contact-whatsapp">Fale Comigo no WhatsApp</a>
+      </div>
+    </div>
+    
+    </div>
+
+    <!-- Seções abaixo do conteúdo principal -->
+    <div id="servicos" class="section fullscreen">
+      <h2>Meus Serviços</h2>
+      <div class="grid-container">
+        <div class="servico" onclick="ampliarTexto(this)">
+          <img src="img/casamento.jpg" alt="Buffet para Casamentos" />
+          <h3>Buffet para Casamentos</h3>
+          <p>
+            Oferecemos serviços de buffet personalizados para casamentos,
+            criando menus exclusivos que atendem às suas preferências e
+            necessidades. Nossa equipe cuida de cada detalhe para garantir que
+            seu grande dia seja perfeito.
+          </p>
+        </div>
+        <div class="servico" onclick="ampliarTexto(this)">
+          <img
+            src="img/corporativo.png"
+            alt="Buffet para Eventos Corporativos"
+          />
+          <h3>Buffet para Eventos Corporativos</h3>
+          <p>
+            Proporcionamos serviços de buffet para eventos corporativos,
+            garantindo uma experiência gastronômica de alta qualidade. Seja para
+            reuniões, conferências ou festas de fim de ano, oferecemos um menu
+            diversificado e adaptado às suas necessidades.
+          </p>
+        </div>
+        <div class="servico middle" onclick="ampliarTexto(this)">
+          <img src="img/aniversario.jpg" alt="Buffet para Aniversários" />
+          <h3>Buffet para Aniversários</h3>
+          <p>
+            Transforme seu aniversário em um evento memorável com nossos
+            serviços de buffet. Oferecemos uma variedade de opções de menu,
+            desde lanches e aperitivos até refeições completas, tudo preparado
+            com ingredientes frescos e de alta qualidade.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="historia" class="section fullscreen">
+      <h2>Minha História</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+
+    <div id="gastronomia" class="section fullscreen">
+      <h2>Gastronomia</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+
+    <div id="galeria" class="section fullscreen">
+      <h2>Galeria de Fotos</h2>
+      <div class="gallery">
+        <img src="img/foto1.png" alt="Foto 1" class="gallery-img" />
+        <img src="img/foto2.png" alt="Foto 2" class="gallery-img" />
+        <img src="img/foto3.jpg" alt="Foto 3" class="gallery-img" />
+        <img src="img/foto4.jpg" alt="Foto 4" class="gallery-img" />
+        <img src="img/foto5.webp" alt="Foto 5" class="gallery-img" />
+        <img src="img/foto6.png" alt="Foto 6" class="gallery-img" />
+        <img src="img/foto7.jpg" alt="Foto 7" class="gallery-img" />
+        <img src="img/foto8.jpg" alt="Foto 8" class="gallery-img" />
+        <img src="img/foto9.png" alt="Foto 9" class="gallery-img" />
+        <img src="img/foto100.jpg" alt="Foto 10" class="gallery-img" />
+      </div>
+    </div>
+
+    <!-- Modal para Exibir Imagem Ampliada -->
+    <div id="image-modal" class="modal">
+      <span class="close-button">&times;</span>
+      <img class="modal-content" id="modal-img" />
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <p>Deseja realmente abrir o WhatsApp?</p>
+        <button id="confirm-button">Sim</button>
+        <button id="deny-button">Não</button>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
