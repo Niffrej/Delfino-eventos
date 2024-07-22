@@ -1,25 +1,14 @@
-# Landing Page Project
+Projeto de Landing Page
+Este projeto é uma landing page responsiva para os serviços de buffet de Nilva Delfino. A página inclui seções para serviços, história, gastronomia e uma galeria de fotos. Apresenta rolagem suave, um modal de contato pelo WhatsApp e uma galeria de imagens com funcionalidade de ampliação.
 
-This project is a responsive landing page for Nilva Delfino's buffet services. The page includes sections for services, history, gastronomy, and a photo gallery. It features smooth scrolling, a WhatsApp contact modal, and an image gallery with enlargement functionality.
-
-## Features
-
-- **Responsive Design**: Optimized for various screen sizes, ensuring a great user experience on both desktop and mobile devices.
-- **Smooth Scrolling**: Smooth transitions between sections for a seamless user experience.
-- **Contact Modal**: A modal window that asks for confirmation before opening WhatsApp.
-- **Image Gallery**: A gallery with images that can be enlarged when clicked.
-
-## Technologies Used
-
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling and layout.
-- **JavaScript**: For interactivity and dynamic content.
-
-## Setup and Usage
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/landing-page-project.git
-   cd landing-page-project
-   ```
+Recursos
+Design Responsivo: Otimizado para vários tamanhos de tela, garantindo uma ótima experiência para usuários em dispositivos desktop e móveis.
+Rolagem Suave: Transições suaves entre seções para uma experiência de usuário sem interrupções.
+Modal de Contato: Uma janela modal que solicita confirmação antes de abrir o WhatsApp.
+Galeria de Imagens: Uma galeria com imagens que podem ser ampliadas ao serem clicadas.
+Tecnologias Utilizadas
+HTML5: Para estruturar o conteúdo.
+CSS3: Para estilização e layout.
+JavaScript: Para interatividade e conteúdo dinâmico.
+Configuração e Uso
+Clone o Repositório
