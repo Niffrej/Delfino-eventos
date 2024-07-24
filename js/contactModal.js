@@ -7,6 +7,7 @@ const contactButton = document.getElementById('contact-whatsapp');
 const confirmButton = document.getElementById('confirm-button');
 const denyButton = document.getElementById('deny-button');
 
+// evento de click 
 contactButton.addEventListener('click', (e) => {
   e.preventDefault();
   modal.style.display = 'flex';

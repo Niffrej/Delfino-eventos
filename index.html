@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delfino Eventos</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/variaveis.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/tipografia.css" />
@@ -15,7 +16,8 @@
     <link rel="stylesheet" href="css/services.css" />
   </head>
   <body>
-    <div class="container fullscreen">
+    <!-- Cabeçalho e Botões -->
+    <header class="container fullscreen">
       <div class="profile-section">
         <img
           src="img/perfil.png"
@@ -25,7 +27,7 @@
         <img rel="icon" href="/img/logo.png" type="image/x-icon" />
         <h5>@DelfinoEventos</h5>
       </div>
-      <div class="buttons">
+      <nav class="buttons">
         <a href="#servicos" class="btn">Conheça os Meus Serviços</a>
         <a href="#historia" class="btn">Conheça Minha História</a>
         <a href="#gastronomia" class="btn">Gastronomia</a>
@@ -36,92 +38,108 @@
           id="contact-whatsapp"
           >Fale Comigo no WhatsApp</a
         >
-      </div>
-    </div>
+      </nav>
+    </header>
 
-    <!-- Seções abaixo do conteúdo principal -->
-    <div id="servicos" class="section fullscreen">
-      <h2>Meus Serviços</h2>
-      <div class="grid-container">
-        <div class="servico" onclick="ampliarTexto(this)">
-          <img src="img/casamento.jpg" alt="Buffet para Casamentos" />
-          <h3>Buffet para Casamentos</h3>
-          <p>
-            Oferecemos serviços de buffet personalizados para casamentos,
-            criando menus exclusivos que atendem às suas preferências e
-            necessidades. Nossa equipe cuida de cada detalhe para garantir que
-            seu grande dia seja perfeito.
-          </p>
+    <!-- Seções -->
+    <main>
+      <!-- Seção de Serviços -->
+      <section id="servicos" class="section fullscreen">
+        <h2>Meus Serviços</h2>
+        <div class="grid-container">
+          <div class="servico" onclick="ampliarTexto(this)">
+            <img src="img/casamento.jpg" alt="Buffet para Casamentos" />
+            <h3>Buffet para Casamentos</h3>
+            <p>
+              Oferecemos serviços de buffet personalizados para casamentos,
+              criando menus exclusivos que atendem às suas preferências e
+              necessidades. Nossa equipe cuida de cada detalhe para garantir que
+              seu grande dia seja perfeito.
+            </p>
+          </div>
+          <div class="servico" onclick="ampliarTexto(this)">
+            <img
+              src="img/corporativo.png"
+              alt="Buffet para Eventos Corporativos"
+            />
+            <h3>Buffet para Eventos Corporativos</h3>
+            <p>
+              Proporcionamos serviços de buffet para eventos corporativos,
+              garantindo uma experiência gastronômica de alta qualidade. Seja
+              para reuniões, conferências ou festas de fim de ano, oferecemos um
+              menu diversificado e adaptado às suas necessidades.
+            </p>
+          </div>
+          <div class="servico middle" onclick="ampliarTexto(this)">
+            <img src="img/aniversario.jpg" alt="Buffet para Aniversários" />
+            <h3>Buffet para Aniversários</h3>
+            <p>
+              Transforme seu aniversário em um evento memorável com nossos
+              serviços de buffet. Oferecemos uma variedade de opções de menu,
+              desde lanches e aperitivos até refeições completas, tudo preparado
+              com ingredientes frescos e de alta qualidade.
+            </p>
+          </div>
         </div>
-        <div class="servico" onclick="ampliarTexto(this)">
-          <img
-            src="img/corporativo.png"
-            alt="Buffet para Eventos Corporativos"
-          />
-          <h3>Buffet para Eventos Corporativos</h3>
-          <p>
-            Proporcionamos serviços de buffet para eventos corporativos,
-            garantindo uma experiência gastronômica de alta qualidade. Seja para
-            reuniões, conferências ou festas de fim de ano, oferecemos um menu
-            diversificado e adaptado às suas necessidades.
-          </p>
+      </section>
+
+      <!-- Seção de História -->
+      <section id="historia" class="section fullscreen">
+        <h2>Minha História</h2>
+        <p>
+          A história da Delfino Eventos é uma jornada de paixão e dedicação ao
+          mundo dos eventos. Desde o início, Nilva Delfino se destacou por sua
+          habilidade em transformar visões em realidade, oferecendo um serviço
+          personalizado e de excelência. Com uma trajetória marcada pela
+          inovação e pelo compromisso com a qualidade, a empresa se consolidou
+          como referência no mercado de eventos. Cada evento é planejado com o
+          máximo cuidado, garantindo que cada detalhe seja perfeito e que cada
+          cliente tenha uma experiência inesquecível.
+        </p>
+      </section>
+
+      <!-- Seção de Gastronomia -->
+      <section id="gastronomia" class="section fullscreen">
+        <h2>Gastronomia</h2>
+        <p>
+          A gastronomia é a alma dos nossos eventos. A paixão por criar
+          experiências culinárias únicas nos leva a buscar sempre os melhores
+          ingredientes e a desenvolver receitas inovadoras. Cada prato é uma
+          obra-prima, elaborada com técnicas refinadas e uma pitada de
+          criatividade. Do menu mais sofisticado ao buffet mais descontraído,
+          garantimos que cada refeição seja uma celebração de sabores. Nossa
+          equipe de chefs experientes trabalha com dedicação para oferecer uma
+          experiência gastronômica que surpreende e encanta a todos os
+          paladares.
+        </p>
+      </section>
+
+      <!-- Seção de Galeria -->
+      <section id="galeria" class="section fullscreen">
+        <h2>Galeria de Fotos</h2>
+        <div class="gallery">
+          <img src="img/foto1.png" alt="Foto 1" class="gallery-img" />
+          <img src="img/foto2.png" alt="Foto 2" class="gallery-img" />
+          <img src="img/foto3.jpg" alt="Foto 3" class="gallery-img" />
+          <img src="img/foto4.jpg" alt="Foto 4" class="gallery-img" />
+          <img src="img/foto5.webp" alt="Foto 5" class="gallery-img" />
+          <img src="img/foto6.png" alt="Foto 6" class="gallery-img" />
+          <img src="img/foto7.jpg" alt="Foto 7" class="gallery-img" />
+          <img src="img/foto8.jpg" alt="Foto 8" class="gallery-img" />
+          <img src="img/foto9.png" alt="Foto 9" class="gallery-img" />
+          <img src="img/foto100.jpg" alt="Foto 10" class="gallery-img" />
         </div>
-        <div class="servico middle" onclick="ampliarTexto(this)">
-          <img src="img/aniversario.jpg" alt="Buffet para Aniversários" />
-          <h3>Buffet para Aniversários</h3>
-          <p>
-            Transforme seu aniversário em um evento memorável com nossos
-            serviços de buffet. Oferecemos uma variedade de opções de menu,
-            desde lanches e aperitivos até refeições completas, tudo preparado
-            com ingredientes frescos e de alta qualidade.
-          </p>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
-    <div id="historia" class="section fullscreen">
-      <h2>Minha História</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
-    </div>
-
-    <div id="gastronomia" class="section fullscreen">
-      <h2>Gastronomia</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
-    </div>
-
-    <div id="galeria" class="section fullscreen">
-      <h2>Galeria de Fotos</h2>
-      <div class="gallery">
-        <img src="img/foto1.png" alt="Foto 1" class="gallery-img" />
-        <img src="img/foto2.png" alt="Foto 2" class="gallery-img" />
-        <img src="img/foto3.jpg" alt="Foto 3" class="gallery-img" />
-        <img src="img/foto4.jpg" alt="Foto 4" class="gallery-img" />
-        <img src="img/foto5.webp" alt="Foto 5" class="gallery-img" />
-        <img src="img/foto6.png" alt="Foto 6" class="gallery-img" />
-        <img src="img/foto7.jpg" alt="Foto 7" class="gallery-img" />
-        <img src="img/foto8.jpg" alt="Foto 8" class="gallery-img" />
-        <img src="img/foto9.png" alt="Foto 9" class="gallery-img" />
-        <img src="img/foto100.jpg" alt="Foto 10" class="gallery-img" />
-      </div>
-    </div>
-
+    <!-- Modais -->
     <!-- Modal para Exibir Imagem Ampliada -->
     <div id="image-modal" class="modal">
       <span class="close-button">&times;</span>
       <img class="modal-content" id="modal-img" />
     </div>
 
-    <!-- Modal -->
+    <!-- Modal de Contato -->
     <div id="modal" class="modal">
       <div class="modal-content">
         <span class="close-button">&times;</span>
@@ -131,6 +149,7 @@
       </div>
     </div>
 
+    <!-- Scripts -->
     <script src="js/scroll.js"></script>
     <script src="js/contactModal.js"></script>
     <script src="js/imageModal.js"></script>
