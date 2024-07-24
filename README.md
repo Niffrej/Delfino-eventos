@@ -1,4 +1,3 @@
-Projeto de Landing Page
 Este projeto é uma landing page responsiva para os serviços de buffet de Nilva Delfino. A página inclui seções para serviços, história, gastronomia e uma galeria de fotos. Apresenta rolagem suave, um modal de contato pelo WhatsApp e uma galeria de imagens com funcionalidade de ampliação.
 
 Recursos
