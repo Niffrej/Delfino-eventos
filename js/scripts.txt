@@ -31,7 +31,7 @@ window.addEventListener('click', (e) => {
 });
 
 confirmButton.addEventListener('click', () => {
-  window.open('https://wa.me/seunumerodetelefone', '_blank');
+  window.open('https://wa.me/553488331210', '_blank');
   modal.style.display = 'none';
 });
 

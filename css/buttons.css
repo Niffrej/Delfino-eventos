@@ -1,0 +1,28 @@
+/* Botões */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn, .buttons a {
+  background-color: var(--accent-3);
+  color: var(--branco);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  text-align: center;
+}
+
+.btn:hover, .buttons a:hover {
+  background-color: var(--accent-4);
+  transform: translateY(-2px);
+}
+
+.whatsapp {
+  background-color: #25D366;
+}

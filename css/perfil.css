@@ -1,0 +1,13 @@
+/* Perfil Section */
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+  box-shadow: 0 4px 6px var(--sombra-leve);
+}

@@ -1,0 +1,15 @@
+/* Cores */
+:root {
+  --fundo: #043b04;
+  --primaria: #8b4513;
+  --secundaria: #000000;
+  --hover: #6f2c1e;
+  --accent-1: #d8bd56; /* Nova cor 1 */
+  --accent-2: #5d6a2e; /* Nova cor 2 */
+  --accent-3: #77947a; /* Nova cor 3 */
+  --accent-4: #7c9c84; /* Nova cor 4 */
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza-claro: #f5f5f5;
+  --sombra-leve: rgba(0, 0, 0, 0.1);
+}
